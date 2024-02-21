@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#heading {
+    font-family: "Protest Revolution", sans-serif;
+    font-size: 4rem;
+    color: #e8fdff;
+    font-weight: 400;
+    text-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    font-style: normal;
+}
+
+body {
+    background-color: #357266;
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    font-size: 12vmin;
+    color: #7B0D1E;
+    background-color: #D3ECEE;
+}
+
+#box0 {
+    border-top-left-radius: 1rem;
+}
+
+#box2 {
+    border-top-right-radius: 1rem;
+}
+
+#box6 {
+    border-bottom-left-radius: 1rem;
+}
+
+#box8 {
+    border-bottom-right-radius: 1rem;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+#msg {
+    color: #A8DADC;
+    font-size: 8vmin;
+}
+
+#new-btn {
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: #01110A;
+    color: #A8DADC;
+    border-radius: 1rem;
+    border: none;
+}
+
+#reset-btn {
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: #01110A;
+    color: #A8DADC;
+    border-radius: 1rem;
+    border: none;
+}
+
+.hide {
+    display: none;
+}
